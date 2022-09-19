@@ -231,7 +231,7 @@ vim.keymap.set('n', '<Leader>d', function()
 end)
 -- <leader>F in normal mode formats file
 vim.keymap.set('n', '<Leader>F', function()
-    vim.lsp.buf.format({ timeout_ms = 3000 })
+    vim.lsp.buf.formatting_sync(nil, 3000)
 end)
 -- <leader>t in normal mode toggles file tree
 vim.keymap.set('n', '<Leader>t', function()
