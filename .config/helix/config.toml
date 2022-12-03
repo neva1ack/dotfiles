@@ -1,0 +1,9 @@
+theme = "catppuccin_mocha_transparent"
+
+[editor]
+line-number = "relative"
+mouse = false
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"

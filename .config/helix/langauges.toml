@@ -1,0 +1,9 @@
+[[language]]
+name = "c"
+formatter = { command = "clang-format", args = ["-style=file"] }
+ident = { tab-width = 4, unit = " " }
+
+[[language]]
+name = "go"
+formatter = { command = "gofmt" }
+ident = { tab-width = 4, unit = " " }
